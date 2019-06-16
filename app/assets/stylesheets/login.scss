@@ -1,0 +1,48 @@
+// Place all the styles related to the Billing controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+
+.btn-slack {
+    // background-image: url(https://a.slack-edge.com/02728/img/sign_in_with_slack.png);
+    // background-size: auto;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    color: #000;
+
+}
+
+// .btn-slack:before {
+//   border-right: #BB3F30 1px solid;
+//   background: image-url("slack.png") 6px 6px no-repeat;
+// }
