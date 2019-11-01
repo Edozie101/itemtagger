@@ -72,7 +72,7 @@ gem "figaro", "~> 1.1"
 
 gem "httparty", "~> 0.17.0"
 
-gem "devise", "~> 4.6"
+gem "devise", "~> 4.7"
 
 gem "bootstrap", "~> 4.3"
 
