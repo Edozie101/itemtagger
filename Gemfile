@@ -70,7 +70,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "figaro", "~> 1.1"
 
 
-gem "httparty", "~> 0.17.0"
+gem "httparty", "~> 0.21.0"
 
 gem "devise", "~> 4.6"
 
